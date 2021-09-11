@@ -20,3 +20,12 @@ export interface IStore {
     image: string;
     __v: number;
 }
+
+export interface IAuthData {
+    name: string;
+    email: string;
+    id: string;
+    role: string;
+    status: string;
+    token: string;
+}

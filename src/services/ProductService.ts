@@ -11,7 +11,7 @@ class ProductService {
     }
 
     addProduct(body: IProduct): Promise<IProduct> {
-        return requests.post(`/product/`, body);
+        return requests.post(`/product`, body);
     }
 
     updateProduct(id: string, body: IProduct): Promise<IProduct> {

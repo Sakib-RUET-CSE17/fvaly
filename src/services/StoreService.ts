@@ -11,7 +11,7 @@ class StoreService {
     }
 
     addStore(body: IStore): Promise<IStore> {
-        return requests.post(`/store/`, body);
+        return requests.post(`/store`, body);
     }
 
     updateStore(id: string, body: IStore): Promise<IStore> {
